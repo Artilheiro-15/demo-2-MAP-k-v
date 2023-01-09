@@ -25,6 +25,8 @@ public class App {
 
     System.out.println("Contains 'ps' key: " + stock.containsKey(ps));
     //aki eu to fazendo o text sera que no meu map contei uma chave igual pruduto ps
+    //antes tava dando false pq ainda n tinha inplementado o equals, hashCode
+    // agora esta dando true pq meu produto e comparado por meio do equals, hashCode implementado
 
     System.out.println("=========================================");
   }
